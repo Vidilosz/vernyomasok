@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vernyomasok</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+ <body class="bg-light">
+    <div class="container mt-5">
+      <h1 class="mb-4">Vérnyomás adatok</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Név</th>
+            <th>Szisztolés</th>
+            <th>Diasztolés</th>
+          </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+      </table>
+    </div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
